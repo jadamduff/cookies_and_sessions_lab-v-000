@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'products/:name/add', :to => 'products#add'
+  post 'products/:name/add', :to => 'products#add'
 
   root 'products#index'
   # The priority is based upon order of creation: first created -> highest priority.
